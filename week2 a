@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	long long int a;
+	int rem=0,res=0;
+	cin>>a;
+	while(a>0)
+	{
+		rem=a%10;
+		res=res+rem; 
+		a=a/10;
+	}
+	cout<<res<<endl;
+}
