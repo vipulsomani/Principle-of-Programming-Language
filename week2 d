@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	char n;
+	cout<<"Enter Character:";
+	cin>>n;
+	if(47<n && n<58)
+	{
+		cout<<"Digit";
+	}
+	else if(96<n && n<123)
+	{
+		cout<<"Small case letter";
+	}
+	else if(64<n && n<91)
+	{
+		cout<<"Capital letter";
+	}
+	else if(n<48 || 57<n && n<65 || 90<n && n<97 || 122<n && n<128 )
+	{
+		cout<<"Special Symbol";
+	}
+}
