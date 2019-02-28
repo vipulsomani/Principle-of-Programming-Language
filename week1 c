@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,c,d,e,f,g,result;
+	cout<<"Enter 7 numbers:";
+	cin>>a>>b>>c>>d>>e>>f>>g;
+	result=(a+b/c*d-e)*(f-g);
+	cout<<"Result is"<<<result;
+	return 0;
+}
