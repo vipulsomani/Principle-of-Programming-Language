@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int cp,sp,p,l;
+	float pl,pp;
+	cout<<"Enter CP and SP:";
+	cin>>cp>>sp;
+	if(sp>cp)
+	{
+		p=sp-cp;
+		pl=p*100;
+		pp=pl/cp;
+		cout<<"Profit Percentag"<<pp;
+	}
+	else if(cp>sp)
+	{
+		l=cp-sp;
+		pl=l*100;
+		pp=pl/cp;
+		cout<<pp;
+	}
+	else
+	{
+		cout<<"no Profit no Loss";
+	}
+	return 0;
+}
